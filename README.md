@@ -16,7 +16,7 @@ Suite2,Test3,com.test.my,Error,Some dummy error!
 ~~~
 Running script:
 ~~~
-toJUnit.py -i result.csv -c classname,name,package,status,message
+toJUnit.py -i input.csv -c classname,name,package,status,message
 ~~~
 Output file is __junit.xml__
 ~~~xml
